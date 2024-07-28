@@ -1,0 +1,11 @@
+Commands to get SHA Fingerprints while phone authentication
+
+TERMINAL
+
+Go to the project folder in the terminal.
+
+Mac command:  keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+
+Windows command:  keytool -list -v -keystore "C:\Users\Dell\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+Linux keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
